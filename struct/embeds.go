@@ -11,6 +11,10 @@ type Bird struct {
 	CanFly   bool
 }
 
+func (an Animal) name() string {
+	return an.Name
+}
+
 //func main() {
 //	b := Bird{}
 //	b.Name = "Emu"
